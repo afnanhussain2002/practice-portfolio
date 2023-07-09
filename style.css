@@ -88,6 +88,11 @@ line-height: 30px;
 
 /* main section styles */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .section-titel{
     color:  #181818;
     text-align: center;
@@ -115,4 +120,17 @@ line-height: 30px;
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+/* what i do section */
+
+#what-i-do-des{
+padding: 30px 150px;
 }
